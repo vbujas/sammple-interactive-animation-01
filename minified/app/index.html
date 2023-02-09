@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Secure your Branch</title>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- build:css styles/main.css -->
+ 
+  <link rel="stylesheet" href="styles/igw-palo-alto-secure-your-branch.css">
+  <!-- endbuild -->
+</head>
+ 
+ 
+<body ng-app="secureYourBranchApp">
+  <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+ 
+  <div class="igw-inner"  ng-controller="MainCtrl">
+      <div id="igw-loader" class="igw-loader">
+          <div style="margin-top:33vh;" class="loader">  
+            <div class="loader02">
+              <div class="loader01"></div>
+            </div><span>LOADING</span>
+            <div  class="loader-hidden"></div>
+          </div> 
+        </div>
+  <div class="igw-main-app-div" ui-view="main-app-div">
+   
+  </div>
+ <!--end igw main-app-div -->
+</div>
+ <!--end inner div-->
+
+ 
+  <script src="scripts/igw-palo-alto-secure-your-branch.js"></script>  
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/main.js"></script>
+  <script src="scripts/controllers/content.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>

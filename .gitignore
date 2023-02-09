@@ -1,0 +1,8 @@
+/sources
+/node_modules
+/.tmp
+/bower_components
+/dist
+/app/fonts
+/app/images
+/minified/app/images
